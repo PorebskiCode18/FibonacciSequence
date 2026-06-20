@@ -10,3 +10,8 @@ One source of inefficiency is that some values of fib are being calculated
 more than once. What I mean by this is that especially with bigger values
 of n, values such as fib(5) can be calculated more than once at different
 points of the program leading to a lot more memory usage.
+
+3) How many iterations of your loop occur when the function is called with
+input 10?
+
+Only 9 iterations of the loop are called when the input is 10.
